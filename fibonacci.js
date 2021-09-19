@@ -1,13 +1,13 @@
 // create fibonacci series in iterative way.
 function fibonacci(n) {
-  fibo = [0, 1];
+  let fibo = [0, 1];
   for (let i = 2; i <= n; i++) {
     fibo[i] = fibo[i - 1] + fibo[i - 2];
   }
   return fibo;
 }
 const result = fibonacci(12);
-console.log(result);
+console.log("first", result);
 
 // create fibonacci series in recursive way.
 function fibonacci1(n) {
